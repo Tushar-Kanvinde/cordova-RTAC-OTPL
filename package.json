@@ -1,5 +1,5 @@
 {
-  "name": "Cordova Plugin RTAC OTPL",
+  "name": "CordovaPluginRTACOTPL",
   "version": "0.0.1-dev",
   "description": "A cordova plugin for RTAC for OTPL POS Printing",
   "cordova": {
