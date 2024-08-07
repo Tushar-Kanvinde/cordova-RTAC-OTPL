@@ -4,7 +4,7 @@
         id="cordova-RTAC-OTPL"
         version="0.1.0-dev">
 
-   <name>Cordova Plugin RTAC OTPL</name>
+   <name>CordovaPluginRTACOTPL</name>
    <description>A cordova plugin for RTAC for OTPL POS Printing</description>
 
    <repo>https://github.com/Tushar-Kanvinde/cordova-RTAC-OTPL.git</repo>
