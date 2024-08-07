@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-RTAC-OTPL"
+        version="0.1.0-dev">
+
+   <name>Cordova Plugin RTAC OTPL</name>
+   <description>A cordova plugin for RTAC for OTPL POS Printing</description>
+
+   <repo>https://github.com/Tushar-Kanvinde/cordova-RTAC-OTPL.git</repo>
+   <license>Apache 2.0</license>
+   <keywords>Cordova, RTAC OTPL POS Printing</keywords>
+
+   <author>Tushar Kanvinde</author>
+
+   <!-- cordova -->
+   <engines>
+      <engine name="cordova" version=">=11.0.0" />
+   </engines>
+
+   <js-module src="www/RTACOTPL.js" name="RTACOTPL">
+      <clobbers target="RTACOTPL" />
+   </js-module>
+
+   <!-- android -->
+   <platform name="android">
+      <config-file target="res/xml/config.xml" parent="/*">
+         <feature name="RTACOTPL">
+            <param name="android-package" value="in.rtac.RTAC.RTACOTPL"/>
+         </feature>
+         <feature name="otpl">
+            <param name="android-package" value="in.rtac.otpl.otpl"/>
+         </feature>
+      </config-file>
+      <framework src="androidx.appcompat:appcompat:1.6.1" />     
+      <source-file src="src/android/RTACOTPL.java" target-dir="src/in/rtac/RTACOTPL" />
+      <source-file src="src/android/otpl.java" target-dir="src/in/rtac/otpl" />
+      <source-file src="libs/classes-2.1.13.jar" target-dir="libs"/>
+   </platform>
+</plugin>

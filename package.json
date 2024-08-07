@@ -1,0 +1,31 @@
+{
+  "name": "Cordova Plugin RTAC OTPL",
+  "version": "0.0.1-dev",
+  "description": "A cordova plugin for RTAC for OTPL POS Printing",
+  "cordova": {
+    "id": "cordova-RTAC-OTPL",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tushar-Kanvinde/cordova-RTAC-OTPL.git"
+  },
+  "keywords": [
+    "cordova",
+    "RTAC OTPL POS Printing"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=11.0.0"
+    }
+  ],
+  "author": "Tushar Kanvinde",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/Tushar-Kanvinde/cordova-RTAC-OTPL/issues"
+  },
+  "homepage": "https://github.com/Tushar-Kanvinde/cordova-RTAC-OTPL#readme"
+}
