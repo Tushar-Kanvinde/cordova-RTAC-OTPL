@@ -7,4 +7,4 @@ var RTACOTPL={
         exec(fnSuccess, fnError, "RTAC", "printBitmap",[imageString]);
     },
 }
-module.exports = RTAC;
+module.exports = RTACOTPL;
